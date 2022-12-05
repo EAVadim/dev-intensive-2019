@@ -6,7 +6,7 @@ abstract class BaseMessage (
     val id: String,
     val from: User?,
     val chat: Chat,
-    val isIncomig: Boolean = false,
+    val isIncoming: Boolean = false,
     val date: Date = Date()
 
 ){

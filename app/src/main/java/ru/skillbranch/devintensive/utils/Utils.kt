@@ -36,7 +36,7 @@ object Utils {
             else -> {
                 val firstLetterOfFirstName = firstName[0]
                 val firstLetterOfLastName = lastName[0]
-                "${firstLetterOfFirstName.uppercaseChar()}${firstLetterOfLastName.uppercaseChar()}"
+                return "${firstLetterOfFirstName.uppercaseChar()}${firstLetterOfLastName.uppercaseChar()}"
             }
         }
     }
